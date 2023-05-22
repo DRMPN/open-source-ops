@@ -19,14 +19,9 @@
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
     <header class="page-header" role="banner">
-        <div>
-            <div>
-                <img src="{{ site.title_image1 }}" alt="first title image" width="200">
-            </div>
-            <div>
-                <img src="{{ site.title_image2 }}" alt="second title image" width="200">
-            </div>
-        </div>
+        <img src="{{ site.title_image1 }}" style="float: left;" alt="first title image" width="200">
+        <img src="{{ site.title_image2 }}" style="float: left;" alt="second title image" width="200">
+        <p style="clear: both;"></p>
         <!-- https://github.com/pages-themes/cayman/issues/134 -->
         <h1 class="project-name">
             <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
