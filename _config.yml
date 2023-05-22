@@ -1,4 +1,4 @@
 theme: jekyll-theme-cayman
 title: Open Source Ops
-title_image_nss: nss-lab-logo.png
-title_image_os: open-source-logo.png
+title_image_nss: /images/nss-lab-logo.png
+title_image_os: /images/open-source-logo.png
